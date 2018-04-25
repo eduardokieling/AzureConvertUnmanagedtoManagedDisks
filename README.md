@@ -3,10 +3,6 @@
 DEFAULT VMs 
 ***********************
 *
-*
-*
-*
-*
 ******************************************************************
 1 - Deallocate the VM by using the Stop-AzureRmVM cmdlet
 ******************************************************************
@@ -25,10 +21,6 @@ ConvertTo-AzureRmVMManagedDisk -ResourceGroupName $rgName -VMName $vmName
 ***********************
 VMs IN AN AVAILABILITY
 ***********************
-*
-*
-*
-*
 *
 ****************************************************************************************
 1 - Convert the availability set by using the Update-AzureRmAvailabilitySet cmdlet. 
