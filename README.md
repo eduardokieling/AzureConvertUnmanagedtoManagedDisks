@@ -18,7 +18,7 @@ ConvertTo-AzureRmVMManagedDisk -ResourceGroupName $rgName -VMName $vmName
 
 
 
-VMs IN AN AVAILABILITY
+VMs in an AVAILABILITY SET
 ----------------------------
 
 1) Convert the availability set by using the Update-AzureRmAvailabilitySet cmdlet. 
